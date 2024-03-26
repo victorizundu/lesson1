@@ -1,0 +1,144 @@
+body{
+margin: 0;
+padding: 0;
+}
+.top{
+ text-align: center;
+ background-color: aquamarine;
+ border-radius: 0px 0px 50px 50px ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+.col1{
+    color: white;
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    border-radius: 100%;
+}
+.col2{
+    color: lightpink;
+    margin: 0;
+    padding: 0;
+}
+.col2{
+    animation-name: changecolor;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-delay: 3s;
+}
+@keyframes changecolor{
+    from{
+        color: red;
+    }
+    to{
+        color: blue;
+    }
+}
+.col3{
+    color: red;
+}
+.downpage{
+    background-color: purple;
+    color: white;
+    border-radius: 50px 50px 0px 0px;
+    text-align: center;
+    height: 350px;
+    
+    
+
+}
+.col4{
+    font-style: italic;
+    background-color: red;
+    border-radius: 10px;
+    border-left: 90%;
+    border-right: 70%;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 7px;
+    
+    
+}
+.col5{
+    padding: 5px;
+    background-color: brown;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: solid;
+    
+}
+.col6{
+    background-color: red;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: solid;
+}
+.col7{
+    background-color: brown;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: solid;
+}
+.col8{
+    background-color: red;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: solid;
+}
+.col9{
+    background-color: brown;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto; 
+    margin-bottom: 10px; 
+    border: solid;
+}
+.col10{
+    background-color: red;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: solid;
+
+}
+.col11{
+    background-color: brown;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: solid;
+}
+.col12{
+    background-color: red;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: solid;
+}
+.col13{
+    background-color: brown;
+    border-radius: 100px;
+    width: 50%;
+    margin: 0 auto;
+    border: solid;
+}
+.col14{
+    
+    color: lightcoral;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lesson.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- explain of inline styling -->
+    <div style="color: brown;">This is inline style</div>
+
+    <!-- explanation embedded styling -->
+    <div class="text">This is an embedded style</div>
+    <p class="text2">This is another text2</p>
+    <style>
+        .text {
+            color: blue;
+        }
+
+        .text2 {
+            color: green;
+        }
+    </style>
+
+    <!-- attribute -->
+    <form action="">
+        <input type="email" type="email" name="email" />
+        <input class="password" type="password" name="password" />
+    </form>
+
+    <style>
+        input[type="email"] {
+            width: 100%;
+            border: 3px solid black;
+        }
+
+        .password {
+            width: 100%;
+            padding: 5px;
+        }
+    </style>
+
+    <!-- css font properties -->
+    <div class="send">Torbita Training Computer School</div>
+    <style>
+        .send {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            font-weight: 400;
+            color: red;
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+    <div class="back_ground">
+    </div>
+
+    <!-- box model and layout -->
+
+    <div style="padding: 5px;border: 3px solid red;margin: 5px;"> Box model and layout</div>
+
+    <!-- css display -->
+    <div style="display: inline;">This is an exmple of css display</div>
+
+    <!-- inline:	Displays an element as an inline element (like <span>). Any height and width properties will have no effect;	
+    block:	Displays an element as a block element (like <p>). It starts on a new line and takes up the whole width;	
+    contents:	Makes the container disappear making the child elements children of the element the next level up in the DOM;	
+    flex:	Displays an element as a block-level flex container;	
+    grid:	Displays an element as a block-level grid container;	
+    inline-block:	Displays an element as an inline-level block container;	
+    inline-flex:	Displays an element as an inline-level flex container;	
+    inline-grid:	Displays an element as an inline-level grid container;	
+    inline-table:	The element is displayed as an inline-level table;	
+    list-item:	Let the element behave like a <li> element;	
+    run-in:	Displays an element as either block or inline depending on context;	
+    table:	Let the element behave like a <table> element;	
+    table-caption:	Let the element behave like a <caption> element;	
+    table-column-group:	Let the element behave like a <colgroup> element;	
+    table-header-group:	Let the element behave like a <thead> element;	
+    table-footer-group:	Let the element behave like a <tfoot> element;	
+    table-row-group:	Let the element behave like a <tbody> element;
+    table-cell:	Let the element behave like a <td> element;	
+    table-column:	Let the element behave like a <col> element;	
+    table-row:	Let the element behave like a <tr> element;	
+    none:	The element is completely removed;	
+    initial:	Sets this property to its default value;
+    inherit:	Inherits this property from its parent element; -->
+
+    <!-- flexbox and responsive design -->
+    <div class="container" style="display: flex; gap:5px;flex-flow: row wrap; border: 2px solid black;">
+
+        <div class="box" style="flex-shrink:3;width:100px;height:auto;border:3px solid red;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, nobis.</div>
+        <div class="box" style="flex-shrink:2;width:100px;height:auto;border:3px solid red;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, nobis.</div>
+        <div class="box" style="flex-shrink:3;width:100px;height:auto;border:3px solid red;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, nobis.</div>
+        <div class="box" style="flex-shrink:2;width:100px;height:auto;border:3px solid red;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, nobis.</div>
+        <div class="box" style="flex-shrink:3;width:100px;height:auto;border:3px solid red;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, nobis.</div>
+
+            <!-- grid -->
+            <div class="grid-container">
+            <div style="border:3px solid blue" clas="grid-item one">1</div>
+            <div style="border:3px solid blue"class="grid-item">2</div>
+            <div style="border:3px solid blue"class="grid-item">3</div>
+            <div style="border:3px solid blue"class="grid-item">4</div>
+            <div style="border:3px solid blue"class="grid-item">5</div>
+            <div style="border:3px solid blue"class="grid-item">6</div>
+ </div>
+
+ <div style="margin-bottom: 100px;"></div>
+
+ <style>
+    .grid-container {
+        border: 3px solid yellow;
+        display: grid;
+        grid-template-columns: 100px auto 300px;
+        grid-template-rows: 100px 50px 100px;
+        gap: 5px 10px;
+    }
+    .grid-item.one {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background: red;
+    }
+ </style>
+</div>
+
+<div class="work_container">
+
+</div>
+
+</body>
+
+</html>
